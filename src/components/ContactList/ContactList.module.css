@@ -1,0 +1,19 @@
+.wrapperList {
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 0;
+}
+.wrapperItem {
+  border: 2px solid #ce116980;
+  border-radius: 8px;
+  padding: 18px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+}

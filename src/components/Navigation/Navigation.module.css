@@ -1,0 +1,21 @@
+.headerNav {
+  display: flex;
+  gap: 8px;
+}
+.menuLink {
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 135px;
+  height: 62px;
+}
+.active {
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 15px;
+   width: 135px;
+  height: 62px;
+}
